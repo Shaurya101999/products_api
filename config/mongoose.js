@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-// const dburl = (process.env.MONGODB_URI) || 'mongodb://localhost/ecommerce_development'
-const dburl = 'mongodb://localhost/ecommerce_development'
+const dburl = (process.env.MONGODB_URI) || 'mongodb://localhost/ecommerce_development'
+// const dburl = 'mongodb://localhost/ecommerce_development'
 
 mongoose.connect(dburl)
 
